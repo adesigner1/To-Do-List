@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* paragraph section */
+
+p{
+    color: rgb(18 41 42 / 38%);
+    display: inline;
+}
+p:hover{
+    cursor:pointer;
+}
+
+::placeholder{
+    font-size: large;
+}
+
+header,footer{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header , main{
+    margin: 3%;
+    border-bottom: 2px solid rgb(234 220 238);
+}
+#container{
+    background-color: rgb(115 53 228 / 59%);
+    margin: auto;
+    margin-top: 6%;
+    width: 500px;
+    height: auto;
+    border: 2px solid #ebb8b8dd;
+    border-radius: 0.5rem;
+}
+
+/*  header section */
+header{
+    display: flex;
+    flex-direction: column;
+    height: 16%;
+}
+
+#header-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+}
+
+#add-task{
+    display:flex;
+    position:relative;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    position:absolute;
+    top: 16%;
+    left: 2%;
+
+}
+#input-task{
+    text-indent: 7%;
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-radius: 1rem;
+}
+
+
+
+.add-btn{
+    display: none;
+    font-size: medium;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color:rgb(134 42 98 / 8%);
+    border:none;
+    border-radius:0.5rem;
+    height: 80%;
+}
+
+.add-button-active{
+    display: block;
+    font-size: medium;
+    position: absolute;
+    top: 9%;
+    right: 1%;
+    background-color:#b8deb2;
+    border: none;
+    border-radius: 1rem;
+    height: 80%;
+}
+
+/*  main section */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  ul li {
+    padding: 10px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+    align-items: center;
+    overflow:hidden;
+    
+}
+#task-list input:checked + label {
+    text-decoration: line-through;
+    color:green
+}
+.highlight:active{
+    color: rgb(238 229 227 / 7%);
+}
+
+.delete{
+    display: none;
+   
+}
+
+li:hover .delete{
+    display: block;
+    color: #962962;
+}
+/* footer section */
+footer{
+    word-spacing: 3px;
+    font-size: small;
+}

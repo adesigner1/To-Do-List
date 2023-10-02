@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/fe72e1556a.js" crossorigin="anonymous"></script> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+        
+        <title>
+            To Do list
+        </title>
+    </head>
+
+    <body>
+
+        <div id="container">
+            <header>
+
+                <div id="add-task">
+                    <i class="text fa fa-file-text" style="font-size:24px"></i>
+                    <input id="input-task" class="add-task" onkeyup="typing()" placeholder="Enter your task" data-helloworld="asdasd"/>
+                    <button id="add-button" class="add-btn fa-solid fa-plus"> </button>
+                </div>
+
+                <div id="header-bottom">
+                    <p id="complete-all" class="highlight"><i class="fa-solid fa-check-double"></i>Complete All Tasks</p>
+                    <p id="clear-complete" class="highlight">Clear completed</p>
+                </div>
+
+            </header>
+
+            <main>
+                <ul id="task-list"> 
+                </ul>
+            </main>
+
+            <footer>
+                <span id="total-tasks" style="word-spacing:0;"> <span id="task-counter">0</span>&nbsp;Tasks Left</span>
+                
+                <div>
+                    <p id="all" style="color: black;">All</p>
+                    <p id="completed">Completed</p>
+                    <p id="uncompleted">Uncompleted</p>
+                </div>
+
+            </footer>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
