@@ -97,7 +97,7 @@ header , main{
 header{
     display: flex;
     flex-direction: column;
-    height: 16%;
+    
 }
 
 #header-bottom{
