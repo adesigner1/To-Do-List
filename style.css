@@ -105,6 +105,7 @@ header{
     display: flex;
     justify-content: space-between;
     font-size: smaller;
+    margin-top: 4%;
 }
 
 
@@ -142,13 +143,11 @@ li:hover .delete{
     display: block;
     color: #962962;
 }
+
+
 /* footer section */
 footer{
     word-spacing: 3px;
     font-size: small;
 }
-/* footer section */
-footer{
-    word-spacing: 3px;
-    font-size: small;
-}
+
