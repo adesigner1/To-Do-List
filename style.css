@@ -18,7 +18,7 @@
 #add-task{
     display:flex;
     position:relative;
-    height: 45px;
+/*     height: 40px; */
     height: 80%;
     justify-content: space-between;
 }
@@ -93,7 +93,7 @@ header,footer{
 
 header , main{
     margin: 3%;
-    border-bottom: 2px solid rgb(234 220 238);
+    border-bottom: 1px solid rgb(234 220 238);
 }
 header{
     display: flex;
